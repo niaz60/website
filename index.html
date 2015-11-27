@@ -1,0 +1,82 @@
+---
+layout: default
+title: Advanced Computational Mechanics and Materials Laboratory
+depth: 0
+---
+{% include base.html %}
+	<div id="boxright">
+		<!-- research box -->
+		<div class="section">
+			<div id="rschbox">
+				<img id="rschimg" src="{{ base }}/static/img/main/{% for img in site.data.main.images limit:1 %}{{ img.file }}{% endfor %}" class="r5" />
+				{% for img in site.data.main.images %}
+				<img src="{{ base }}/static/img/main/{{ img.file }}" style="display:none;height:0;visibility:hidden;" />
+				{% endfor %}
+				<div class="arrow-l" onclick="mainimg(0)"></div>
+				<div class="arrow-r" onclick="mainimg(1)"></div>
+			</div>
+			<a href=""><h2 class="c3 c4h" style="text-align:center;line-height:2em;">{% for img in site.data.main.images limit:1 %}{{ img.name }}{% endfor %}</h2></a>
+		</div>
+		<!-- end -->
+		<!-- about us box -->
+		<div class="section">
+			<h1 class="c1 bb3">
+				About Us
+				<a href="./people/"><span class="c2 c4h seeall">more</span></a>
+			</h1>
+			<h6 class="c1" style="line-height:1.5em;">{% for abt in site.data.main.about %}{{ abt.about }}{% endfor %}</h6>
+		</div>
+		<!-- end -->
+		<!-- research box -->
+		<div class="section">
+			<h1 class="c1 bb3">
+				Research Areas
+				<a href="./research/"><span class="c2 c4h seeall">more</span></a>
+			</h1>
+			{% for rsch in site.data.research.research %}
+			<div class="eventbox">
+				<h3 class="c3 bb4 subheading">{{ rsch.title }}</h3>
+				{% if rsch.video %}
+				<div id="a{{ rsch.video }}" style="width:30%;position:relative;float:left;">
+					<div class="vid"><div><iframe id="ytplayer" src="http://www.youtube.com/embed/{{ rsch.video }}"></iframe></div></div>
+					<div id="b{{ rsch.video }}" style="position:absolute;width:100%;height:100%;top:0;left:0;cursor:pointer;" onclick="videxpand('{{ rsch.video }}')"></div>
+				</div>
+				{% endif %}
+				<p class="c1">{{ rsch.description | truncatewords: 40 }}</p>
+			</div>
+			{% endfor %}
+		</div>
+		<!-- end -->
+	</div>
+	<div id="boxleft">
+		<!-- news/events box -->
+		{% for article in site.data.main.news %}
+		{% assign newsnum = article.articles %}
+		{% endfor %}
+		<div class="section">
+			<h1 class="c1 bb3">
+				News
+				<a href="./news/"><span class="c2 c4h seeall">more</span></a>
+			</h1>
+			{% for post in site.posts limit:newsnum %}
+			{% if post.category == "news" %}
+			<div class="eventbox">
+				<h6 class="c3 bb4 subheading">{{ post.title }}</h6>
+				<p class="c1">{{ post.excerpt }}</p>
+			</div>
+			{% endif %}
+			{% endfor %}
+		</div>
+		<!-- end -->
+		<!-- principal investigator box -->
+		<div class="section">
+			<h1 class="c1 bb3">
+				Principal Investigator
+			</h1>
+			{% for person in site.data.people.principal-investigator %}
+				<p class="c1"><img id="pi-pic" class="r5" src="{{ base }}/static/img/people/{{ person.pic }}" />
+				{{ person.personal_desc }}
+			{% endfor %}
+			</p>
+		</div>
+	</div>

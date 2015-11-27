@@ -1,0 +1,61 @@
+<div id="ppl">
+	<div class="r5 ppl-img">
+		<img class="r5" src="{% if person.pic %}{{ base }}/static/img/people/{{ person.pic }}{% else %}{{ base }}/static/img/people/blank.jpg{% endif %}" />
+	</div>
+	<div class="ppl-info">
+		<h2 class="c1">{{ person.name }}</h2>
+		<div class="ppl-info1 bt3">
+			{% if person.title %}<p>{{ person.title }}</p>{% endif %}
+			{% if person.dept %}<p>{{ person.dept }}</p>{% endif %}
+			{% if person.link_text %}<p class="c3"><a href="{{ person.link_value }}">{{ person.link_text }}</a></p>{% endif %}
+		</div>
+		<div class="ppl-info2 bt3">
+			{% if person.office %}<p>{{ person.office }}</p>{% endif %}
+			{% if person.email %}<p>{{ person.email }}</p>{% endif %}
+			{% if person.phone %}<p>phone: {{ person.phone }}</p>{% endif %}
+			{% if person.fax %}<p>fax: {{ person.fax }}</p>{% endif %}
+		</div>
+		<div class="ppl-info1 c3 c4h bt3">
+			{% assign pname = person.name | downcase | remove: " " | remove: "'" %}
+			{% if person.personal_desc %}
+				<h3 id="{{ pname }}-1" onclick="people('{{ pname }}-1')">&#9662; personal bio &#9662;</h3>
+			{% endif %}
+		</div>
+		<div class="ppl-info2 c3 c4h bt3">
+			{% if person.project_desc %}
+				<h3 id="{{ pname }}-2" onclick="people('{{ pname }}-2')">&#9662; project info &#9662;</h3>
+			{% endif %}
+		</div>
+	</div>
+</div>
+<div id="ppl-sm">
+	<h2 class="c1">{{ person.name }}</h2>
+	<div class="r5 ppl-img-sm">
+		<img class="r5" src="{% if person.pic %}{{ base }}/static/img/people/{{ person.pic }}{% else %}{{ base }}/static/img/people/blank.jpg{% endif %}" />
+	</div>
+	{% if person.title %}<p>{{ person.title }}</p>{% endif %}
+	{% if person.dept %}<p>{{ person.dept }}</p>{% endif %}
+	{% if person.link_text %}<p class="c3"><a href="{{ person.link_value }}">{{ person.link_text }}</a></p>{% endif %}
+	{% if person.office %}<p>{{ person.office }}</p>{% endif %}
+	{% if person.email %}<p>{{ person.email }}</p>{% endif %}
+	{% if person.phone %}<p>phone: {{ person.phone }}</p>{% endif %}
+	{% if person.fax %}<p>fax: {{ person.fax }}</p>{% endif %}
+	<div class="ppl-info bt3">
+		<div class="ppl-info1 c3 c4h">
+			{% assign pname = person.name | downcase | remove: " " | remove: "'" %}
+			{% if person.personal_desc %}
+				<h3 id="{{ pname }}-5" onclick="people('{{ pname }}-1')">&#9662; bio &#9662;</h3>
+			{% endif %}
+		</div>
+		<div class="ppl-info2 c3 c4h">
+			{% if person.project_desc %}
+				<h3 id="{{ pname }}-6" onclick="people('{{ pname }}-2')">&#9662; project &#9662;</h3>
+			{% endif %}
+		</div>
+	</div>
+</div>
+<p id="{{ pname }}-bio" style="display:none;margin-bottom">{{ person.personal_desc }}</p>
+<div id="{{ pname }}-prj" style="display:none;">
+	<h3 class="c3" style="line-height:2em;">{{ person.project }}</h3>
+	<p>{{ person.project_desc }}</p>
+</div>

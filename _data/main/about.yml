@@ -1,0 +1,9 @@
+# About Us
+# --------
+# About Us section on homepagge. Use the following format:
+# - about: |
+#     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel felis ipsum. Nullam efficitur commodo gravida. Aenean gravida sapien et congue consectetur. Nam quis euismod enim.
+---
+
+- about: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel felis ipsum. Nullam efficitur commodo gravida. Aenean gravida sapien et congue consectetur. Nam quis euismod enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit.

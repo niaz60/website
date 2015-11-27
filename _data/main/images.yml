@@ -1,0 +1,20 @@
+# Images to Display
+# -----------------
+# name: text to display underneath image
+# file: name of file located in /static/img/main/ directory
+---
+
+- name: 
+  file: 2.jpg
+
+- name: 
+  file: Fig2_a-f.jpg
+
+- name: 
+  file: figure11-2.jpg
+
+- name: 
+  file: pic6.jpg
+
+- name: 
+  file: snap8_2nm.jpg
