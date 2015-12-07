@@ -18,7 +18,11 @@
 
 - name: Michael Lawrie
   title: Undergraduate Student
-  dept: Mechanical Engineering 
-  project: Project Title Goes Here
-  project_desc: Project description goes here.
-  personal_desc: Personal description goes here.
+  office: Hopeman 329
+  link_text: 
+  link_value: 
+  email: mlawrie@u.rochester.edu
+  pic: michael-lawrie.jpg
+  project: 
+  project_desc:
+  personal_desc: “I am a sophomore studying Mechanical Engineering from the Highlands of Scotland. My favorite sports are skiing and mountain biking. In my spare time run my software company and I have a obsession for cars.”
