@@ -13,7 +13,7 @@
 # pic: filename of picture located in /static/img/people/ directory
 # project: title of project
 # project_desc: short description of project
-# personal_desc: personal short bio
+# personal_desc: personal short bio 
 ---
 
 - name: Michael Lawrie
