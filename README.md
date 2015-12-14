@@ -123,7 +123,7 @@ The site's formatting is controlled by templates and static pages that rely on v
 - [Brackets](http://brackets.io/) : Created by Adobe. I have no personal experience with it, but is supposed to be another good option.
 - [Light Table](http://lighttable.com/) : A Kickstarter backed creation, built with the quility to rival other bigger-name editors.
 
- The majority of those files are located within the '_data' folder. Each subfolder within it corresponds to the webpage that it affects.
+The majority of those files are located within the '_data' folder. Each subfolder within it corresponds to the webpage that it affects.
 
 ### main
 
