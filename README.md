@@ -94,7 +94,7 @@ If you're on El Capitan, it may say you can't install in that location. If it do
 
 Hopefully by this point jekyll is installed. Check the install, which should display a list of available commands, with
 
-$ jekyll
+    $ jekyll
 
 ### Using Jekyll
 
@@ -111,3 +111,60 @@ If you don't need to preview your changes, you can simply run
     $ jekyll b
 
 which builds the site again, and replaces the new static site files in the '_site' folder.
+
+---
+
+## UPDATING THE WEBSITE
+
+The site's formatting is controlled by templates and static pages that rely on various data files. The files are either [YAML](http://www.yaml.org/) or Markdown (previously linked), and can be editted in a text editor. Notepad (Windows) and TextEdit (Mac) should be able to handle these files, but certain characters, like double quotations (") may not be handled correctly. For Windows, Notepad++ may do the trick, but here are a list of several (free) text editors that cover a wide range of file types and are much easier to use for programming.
+
+- [TextMate](http://macromates.com/download) : My personal favorite, but is only available for Mac. The 2.0 beta version is free to use. It is a production version, but carries the beta label simply do signal it's still being updated regularly.
+- [Atom](https://atom.io/) : Created by GitHub. Has some nice features and is very customizable.
+- [Brackets](http://brackets.io/) : Created by Adobe. I have no personal experience with it, but is supposed to be another good option.
+- [Light Table](http://lighttable.com/) : A Kickstarter backed creation, built with the quility to rival other bigger-name editors.
+
+ The majority of those files are located within the '_data' folder. Each subfolder within it corresponds to the webpage that it affects.
+
+### main
+
+The files that alter the [home page](http://acmml.com/).
+
+- about.yml : The text for the 'About Us' section.
+- images.yml : Determines what images are part of the primary rotating images.
+- news.yml : Dictates how many news article snippets are displayed on the home page.
+
+### people
+
+Each file (graduate.yml, postdoc.yml, principal-investigator.yml, undergrad.yml) is where the info for each person within the research group goes. If, for instance, there are no post-docs then the file will be blank and that section on the People page will not show up. The available sections of information that can be filled out for a person are detailed in the comments section at the top of each file.
+
+### publications
+
+The publications.yml file is just a list of the publications. Each one has an 'id' that is simply for linking to a research section (to be detailed below). The rest is hopefully self-explanatory, but keep in mind the DOI will automatically create the appropriate link when listed out on the publications page. As with any of these data files, if a section is left blank is simply will not appear on the page.
+
+### research
+
+The research.yml file is a list of research areas, with corresponding information. The image, or video, that is chosen will show up (the video will supercede the image if both are listed), along with a linked publication title (if given), a title, and a description. Formatting for the description portion is a little confusing, but as a rule keep in mind that indentations in YAML are very particular. Each is exactly two spaces, and for the research descriptions, each new paragraph must have a blank line in between that contains 2 spaces in it. The new paragraphs must also be indented to the level of the first (4 spaces in total). Any links supplied in this area should work correctly on the research page. (Click on the Markdown link under the JEKYLL section to learn more on syntax. The descriptions will be parsed as Markdown.)
+
+Videos are denoted by their YouTube ID. For ease of playback, accessibility, and keeping your site up-to-date, using YouTube to host your videos will be easier than other options. When you upload the videos onto YouTube just make sure they aren't set to Private, or they won't be allowed to be embedded on the site. You can, however, mark them as Unlisted, which means you have to have the direct link to view the video.
+
+---
+
+### news
+
+The News articles are held in a different location. Starting in the main 'website' folder find the 'news' folder that will contain a '_posts' folder. Within it will be the news articles. The naming convention must be upheld of the article will be ignored. The correct convention is 'YYYY-MM-DD-name-of-article.md'. Within the article there will be a top section enclosed in '---' lines. The layout and category lines should never be altered, but the rest should be unique to each post. When creating new news articles it is easist to duplicate an earlier article and then change the name and details, so don't forget to update each piece of information. The articles will be ordered in the folder and on the site in reverse-chronological order (newest to oldest).
+
+These news articles are Markdown files, and follow that syntax. Again, that link is available near the top of the JEKYLL section, above.
+
+---
+
+### adding images
+
+When adding images, make sure they go into the appropriate folder. It should be noted in each data file where the images for that section go, and the directory setup matches that of the data files to make this easier.
+
+Under the 'static/img/' folder there should be a header.jpg image. This is the banner image. If you should ever wish to replace it, simply remove this file and name the new image header.jpg. The four other folders correspond to the area they relate to. In the people folder there will be a blank.jpg image. Leave this image in the folder. It will be displayed for a person who hasn't given you an image to show yet.
+
+I recommend trying to keep the filesize of the images you upload as small as possible. Under or around 100KB is ideal. For this to happen, usually JPEG files are the way to go. PNG files are much larger, and TIFF aren't compressed at all. JPEG can be compressed on a sliding scale, or resized as appropriate in any photo editting software. Preview on Mac actually handles this quite well. If an image is several thousand pixels in size it should be resized. For any image on the site a width of 800 should be perfectly fine and allow you to limit the file size. I wouldn't suggest going any lower than 800 in width. The only exception to this would be the header.jpg cover photo. A width around 1500 would be more advisable here, with a height no less than half of the width.
+
+Also keep in mind that cropping images may be necessary. The people photos in particular should be cropped so they show up well on the site.
+
+---
