@@ -14,4 +14,4 @@ markdown: kramdown
 
 # Permalinks
 #permalink: pretty
-permalink: /news/posts/:month-:day-:year/:title
+permalink: /news/posts/:month-:day-:year/:title/
