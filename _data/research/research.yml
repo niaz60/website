@@ -11,7 +11,8 @@
 #  for more paragraphs leave a blank line between (include 2 spaces in it)
 ---
 
-- title: Multiscale modeling of nanoscale metallic multilayers 
+- title: Multiscale modeling of nanoscale metallic multilayers
+  publication_id: 7
   pic: 1.jpg
   video: M7lc1UVf-VE
   description: |
@@ -28,13 +29,13 @@
     Solid-state interfaces are ubiquitous in materials science: from grain boundaries in polycrystalline metals to heterophase interfaces in multi-component, multi-functional composites . As awareness of their far-reaching influence on materials behavior grows, so does interest in predicting and controlling their structure and properties. In this project, we advance the dislocation-based model for interface structure by developing a method for determining the unique reference state in which interface Burgers vectors must be defined.
   
 - title: Nanoporous materials
-  publication_id: 2
+  publication_id: 9
   pic: 3.jpg
   description: |
     Nanoporous (NP) metals are three-dimensional networks of inter-connected pores and ligaments. Their open-cell structure and high surface area per unit volume give them unique electrical, mechanical, and catalytic properties as well as high radiation resistance. The deformation behavior of NP materials are often controlled by their microstructure including porosity and size and shape of the ligaments. The goal of this project is to reveal the mechanisms that control the plastic deformation of NP metals and develop predictive models/maps for determining their mechanical properties including ductility and strength.
 
 - title: Composite pseudoelastic nanowires
-  publication_id: 3
+  publication_id: 12
   pic: 4.jpg
   description: |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel felis ipsum. Nullam efficitur commodo gravida. Aenean gravida sapien et congue consectetur. Nam quis euismod enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et nunc congue, commodo risus id, consectetur augue. Cras sodales justo at elementum sagittis. Fusce ac ornare tortor. Praesent sit amet tempor ligula. In consectetur, erat at pulvinar ornare, purus nisl porta velit, sed cursus felis mauris vulputate eros. Nulla eu justo luctus, auctor arcu sit amet, tristique massa. Curabitur dictum finibus nibh in tempor.
