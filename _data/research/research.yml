@@ -23,8 +23,8 @@
   
 - title: Computational prediction of the structure of semicoherent interfaces
   publication_id: 1
-  pic: 
-  video: M7lc1UVf-VE
+  pic: 2.jpg
+  #video: M7lc1UVf-VE
   description: |
     Solid-state interfaces are ubiquitous in materials science: from grain boundaries in polycrystalline metals to heterophase interfaces in multi-component, multi-functional composites . As awareness of their far-reaching influence on materials behavior grows, so does interest in predicting and controlling their structure and properties. In this project, we advance the dislocation-based model for interface structure by developing a method for determining the unique reference state in which interface Burgers vectors must be defined.
   
