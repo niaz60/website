@@ -25,7 +25,8 @@
   pic: 
   video: M7lc1UVf-VE
   description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel felis ipsum. Nullam efficitur commodo gravida. Aenean gravida sapien et congue consectetur. Nam quis euismod enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+	Solid-state interfaces are ubiquitous in materials science: from grain boundaries in polycrystalline metals to heterophase interfaces in multi-component, multi-functional composites . As awareness of their far-reaching influence on materials behavior grows, so does interest in predicting and controlling their structure and properties. In this project, we advance the dislocation-based model for interface structure by developing a method for determining the unique reference state in which interface Burgers vectors must be defined.
+    
   
 - title: Nanoporous materials
   publication_id: 2
