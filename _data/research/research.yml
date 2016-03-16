@@ -33,9 +33,10 @@
   pic: 3.jpg
   description: |
     Nanoporous (NP) metals are three-dimensional networks of inter-connected pores and ligaments. Their open-cell structure and high surface area per unit volume give them unique electrical, mechanical, and catalytic properties as well as high radiation resistance. The deformation behavior of NP materials are often controlled by their microstructure including porosity and size and shape of the ligaments. The goal of this project is to reveal the mechanisms that control the plastic deformation of NP metals and develop predictive models/maps for determining their mechanical properties including ductility and strength.
-
+  
 - title: Composite pseudoelastic nanowires
   publication_id: 12
   pic: 4.jpg
   description: |
-  Metallic nanowires can recover from up to 50% of plastic strain when their cross-sectional area is smaller than a certain critical value, which is on the order of a few nms. This behavior is called pseudoelasticity and the mechanism responsible for it is the formation of partial dislocations (twinning). We particularly explore the coupled effects of geometry and coherent interface on the tendency of composite nanowires to deform via twins and show pseudoelastic behavior. The idea of sandwiching nanowires can be used in the case of metals with low twinability to improve their ductility and pseudoelastic properties in future.
+    Metallic nanowires can recover from up to 50% of plastic strain when their cross-sectional area is smaller than a certain critical value, which is on the order of a few nms. This behavior is called pseudoelasticity and the mechanism responsible for it is the formation of partial dislocations (twinning). We particularly explore the coupled effects of geometry and coherent interface on the tendency of composite nanowires to deform via twins and show pseudoelastic behavior. The idea of sandwiching nanowires can be used in the case of metals with low twinability to improve their ductility and pseudoelastic properties in future.
+  
