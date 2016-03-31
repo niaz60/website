@@ -74,9 +74,17 @@ depth: 0
 				Principal Investigator
 			</h1>
 			{% for person in site.data.people.principal-investigator %}
-				<p class="c1"><img id="pi-pic" class="r5" src="{{ base }}/static/img/people/{{ person.pic }}" />
-				{{ person.personal_desc }}
+				{% if person.personal_desc %}
+				<p class="c1" style="margin-bottom:10px;">{{ person.personal_desc }}</p>
+				{% else %}
+				<p class="c1" style="margin-bottom:10px;">{{ person.personal_desc_one }}</p>
+				<p class="c1" style="margin-bottom:10px;">{{ person.personal_desc_two }}</p>
+				<p class="c1" style="margin-bottom:10px;">{{ person.personal_desc_three }}</p>
+				<p class="c1" style="margin-bottom:10px;">{{ person.personal_desc_four }}</p>
+				<p class="c1" style="margin-bottom:10px;">{{ person.personal_desc_five }}</p>
+				{% endif %}
+				<p class="c1"><img id="pi-pic" class="r5" src="{{ base }}/static/img/people/{{ person.pic }}" /></p>
 			{% endfor %}
-			</p>
 		</div>
 	</div>
+	<div style="float:right;width:90%;margin-right:5%;padding-top:10px;"><h6 class="c4 bt3" style="width:100%;text-align:center;padding-top:15px;"><a href="http://rochester.edu/simcenter/" target="_blank">Center for Molecular Simulation</a></h6></div>

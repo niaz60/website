@@ -62,7 +62,7 @@ body{background:#EEE;}a{color:#00A8C9;}
 	.arrow-l:hover{background-image:url("logos/arrow-l-b2.png");}.arrow-r:hover{background-image:url("logos/arrow-r-b2.png");}
 }
 .eventbox{padding:0 0 20px 0;width:95%;margin:0 auto;}
-#pi-pic{width:45%;margin:0 10px 0 0;float:left;}
+#pi-pic{width:50%;/*margin:0 10px 0 0;*/margin-left:25%;float:left;}
 .footer{display:block;position:relative;text-align:center;margin:0 auto;padding:20px 0 0 0;line-height:1em;}
 /* research */
 .rsch-txt p{padding-bottom:1em;}
@@ -71,6 +71,8 @@ body{background:#EEE;}a{color:#00A8C9;}
 }
 @media (max-width:749px){
 	.rsch-img{position:relative;margin-left:12%;width:76%;}
+	#rschbox{height:250px;line-height:250px;}
+	#rschimg{max-height:250px;}
 }
 /* people */
 #ppl{position:relative;margin:20px 0;overflow:hidden;}

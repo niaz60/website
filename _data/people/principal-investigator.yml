@@ -14,6 +14,7 @@
 # project: title of project
 # project_desc: short description of project
 # personal_desc: personal short bio
+# if you have several lines you want separated (like a title) use the following instead of personal_desc
 ---
 
 - name: Niaz Abdolrahim
@@ -28,18 +29,9 @@
   pic: niaz-abdolrahim.jpg
   project: 
   project_desc: 
-  personal_desc: "
-  
-  
-  
-
-
-
-Niaz Abdolrahim
-
-Assistant Professor of Mechanical Engineering and Materials Science 
-
-Department of Mechanical Engineering 
-University of Rochester
-
-niaz@rochester.edu"
+  personal_desc: 
+  personal_desc_one: Niaz Abdolrahim
+  personal_desc_two: Assistant Professor of Mechanical Engineering and Materials Science
+  personal_desc_three: Department of Mechanical Engineering 
+  personal_desc_four: University of Rochester
+  personal_desc_five: niaz@rochester.edu

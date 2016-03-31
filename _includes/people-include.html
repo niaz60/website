@@ -19,6 +19,8 @@
 			{% assign pname = person.name | downcase | remove: " " | remove: "'" %}
 			{% if person.personal_desc %}
 				<h3 id="{{ pname }}-1" onclick="people('{{ pname }}-1')">&#9662; personal bio &#9662;</h3>
+			{% elsif person.personal_desc_one %}
+				<h3 id="{{ pname }}-1" onclick="people('{{ pname }}-1')">&#9662; personal bio &#9662;</h3>
 			{% endif %}
 		</div>
 		<div class="ppl-info2 c3 c4h bt3">
@@ -45,6 +47,8 @@
 			{% assign pname = person.name | downcase | remove: " " | remove: "'" %}
 			{% if person.personal_desc %}
 				<h3 id="{{ pname }}-5" onclick="people('{{ pname }}-1')">&#9662; bio &#9662;</h3>
+			{% elsif person.personal_desc_one %}
+				<h3 id="{{ pname }}-5" onclick="people('{{ pname }}-1')">&#9662; bio &#9662;</h3>
 			{% endif %}
 		</div>
 		<div class="ppl-info2 c3 c4h">
@@ -54,7 +58,17 @@
 		</div>
 	</div>
 </div>
-<p id="{{ pname }}-bio" style="display:none;margin-bottom">{{ person.personal_desc }}</p>
+{% if person.personal_desc %}
+	<p id="{{ pname }}-bio" style="display:none;margin-bottom">{{ person.personal_desc }}</p>
+{% elsif person.personal_desc_one %}
+	<p id="{{ pname }}-bio" style="display:none;margin-bottom">
+		{{ person.personal_desc_one }}<br>
+		{{ person.personal_desc_two }}<br>
+		{{ person.personal_desc_three }}<br>
+		{{ person.personal_desc_four }}<br>
+		{{ person.personal_desc_five }}
+	</p>
+{% endif %}
 <div id="{{ pname }}-prj" style="display:none;">
 	<h3 class="c3" style="line-height:2em;">{{ person.project }}</h3>
 	<p>{{ person.project_desc }}</p>
