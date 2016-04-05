@@ -7,7 +7,7 @@ title: ""
 #video: M7lc1UVf-VE
 excerpt: "Our recent paper “Determining coherent reference states of general semicoherent interfaces” just got highlighted by the editor of the Computational Materials Science."
 ---
-Our recent paper “Determining coherent reference states of general semicoherent interfaces” just got highlighted by the editor of the Computational Materials Science. See the link:
+Niaz recent paper “Determining coherent reference states of general semicoherent interfaces” just got highlighted as the editor's choice of the Computational Materials Science. See the link:
 http://www.sciencedirect.com/science/journal/09270256
 
 
