@@ -7,5 +7,3 @@ excerpt: "Quick news/event blurb would go here. This will only appear on the hom
 ---
 
 Bin (Jimmy) presented his work on atomistic modeling of nanoporous materials at the Center for Integrated Research Computing annual poster session. Good job Jimmy!
-
-
