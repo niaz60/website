@@ -1,7 +1,7 @@
 ---
 layout: default
 category: news
-date: 2016-06-23 10:00:00
+date: 2016-06-30 10:00:00
 title: ""
 #pic: 2.jpg
 #video: M7lc1UVf-VE
