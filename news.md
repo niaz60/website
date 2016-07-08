@@ -14,7 +14,7 @@ depth: 1
 			<h2 class="c3 bb4 subheading">{{ post.title }}</h2>
 			<p class="c3">{{ post.date | date: "%b %-d, %Y" }}</p>
 			{% if post.pic %}
-			<div class="rsch-img r5">
+			<div class="news-img r5">
 				<img src="{{ base }}/static/img/research/{{ post.pic }}" class="r5" style="width:100%;" />
 			</div>
 			{% endif %}

@@ -8,6 +8,7 @@
 			{% if person.title %}<p>{{ person.title }}</p>{% endif %}
 			{% if person.dept %}<p>{{ person.dept }}</p>{% endif %}
 			{% if person.link_text %}<p class="c3"><a href="{{ person.link_value }}">{{ person.link_text }}</a></p>{% endif %}
+			{% if person.project %}<p>project: {{ person.project }}</p>{% endif %}
 		</div>
 		<div class="ppl-info2 bt3">
 			{% if person.office %}<p>{{ person.office }}</p>{% endif %}
@@ -38,6 +39,7 @@
 	{% if person.title %}<p>{{ person.title }}</p>{% endif %}
 	{% if person.dept %}<p>{{ person.dept }}</p>{% endif %}
 	{% if person.link_text %}<p class="c3"><a href="{{ person.link_value }}">{{ person.link_text }}</a></p>{% endif %}
+	{% if person.project %}<p>project: {{ person.project }}</p>{% endif %}
 	{% if person.office %}<p>{{ person.office }}</p>{% endif %}
 	{% if person.email %}<p>{{ person.email }}</p>{% endif %}
 	{% if person.phone %}<p>phone: {{ person.phone }}</p>{% endif %}

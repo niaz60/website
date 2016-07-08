@@ -1,0 +1,15 @@
+# Current Openings
+# -----------------
+# title: title of opening
+# description: description of opening
+# file: name of decription pdf file located in /static/img/openings/ directory
+---
+
+- title: Test Opening 1
+  description: This is a test opening for display purposes only.
+  file: test-opening.pdf
+
+- title: Test Opening 2
+  description: This is a test opening for display purposes only.
+  file: test-opening.pdf
+

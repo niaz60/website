@@ -86,5 +86,17 @@ depth: 0
 				<p class="c1"><img id="pi-pic" class="r5" src="{{ base }}/static/img/people/{{ person.pic }}" /></p>
 			{% endfor %}
 		</div>
+		<!-- openings box -->
+		<div class="section">
+			<h1 class="c1 bb3">
+				Openings
+				<a href="./openings/"><span class="c2 c4h seeall">more</span></a>
+			</h1>
+			{% for opening in site.data.openings.openings %}
+				<a href="./static/img/openings/{{ opening.file }}" target="_blank">
+					<h3 class="c2 c4h" style="margin:20px 0;">{{ opening.title }}</h3>
+				</a>
+			{% endfor %}
+		</div>
 	</div>
 	<div style="float:right;width:90%;margin-right:5%;padding-top:10px;"><h6 class="c4 bt3" style="width:100%;text-align:center;padding-top:15px;"><a href="http://rochester.edu/simcenter/" target="_blank">Center for Molecular Simulation</a></h6></div>
