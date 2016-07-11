@@ -5,11 +5,11 @@
 # file: name of decription pdf file located in /static/img/openings/ directory
 ---
 
-- title: Postdoc
+- title: Postdoc Position
   description: This is a test opening for display purposes only.
-  file: test-opening.pdf
+  file: postdoc.pdf
 
-- title: Test Opening 2
-  description: This is a test opening for display purposes only.
-  file: test-opening.pdf
+#- title: Test Opening 2
+# description: This is a test opening for display purposes only.
+# file: test-opening.pdf
 
