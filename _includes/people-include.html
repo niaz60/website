@@ -3,7 +3,13 @@
 		<img class="r5" src="{% if person.pic %}{{ base }}/static/img/people/{{ person.pic }}{% else %}{{ base }}/static/img/people/blank.jpg{% endif %}" />
 	</div>
 	<div class="ppl-info">
-		<h2 class="c1">{{ person.name }}</h2>
+		<h2 class="c1">{{ person.name }}{{ person.alumni_name }}</h2>
+		{% if person.alumni_name %}
+		<div class="ppl-info3 bt3">
+			{% if person.email %}<p>{{ person.email }}</p>{% endif %}
+			{% if person.status %}<p style="margin-top:0.7em;">{{ person.status }}</p>{% endif %}
+		</div>
+		{% else %}
 		<div class="ppl-info1 bt3">
 			{% if person.title %}<p>{{ person.title }}</p>{% endif %}
 			{% if person.dept %}<p>{{ person.dept }}</p>{% endif %}
@@ -29,10 +35,11 @@
 				<h3 id="{{ pname }}-2" onclick="people('{{ pname }}-2')">&#9662; project info &#9662;</h3>
 			{% endif %}
 		</div>
+		{% endif %}
 	</div>
 </div>
 <div id="ppl-sm">
-	<h2 class="c1">{{ person.name }}</h2>
+	<h2 class="c1">{{ person.name }}{{ person.alumni_name }}</h2>
 	<div class="r5 ppl-img-sm">
 		<img class="r5" src="{% if person.pic %}{{ base }}/static/img/people/{{ person.pic }}{% else %}{{ base }}/static/img/people/blank.jpg{% endif %}" />
 	</div>
@@ -44,6 +51,7 @@
 	{% if person.email %}<p>{{ person.email }}</p>{% endif %}
 	{% if person.phone %}<p>phone: {{ person.phone }}</p>{% endif %}
 	{% if person.fax %}<p>fax: {{ person.fax }}</p>{% endif %}
+	{% if person.status %}<p style="margin-top:0.7em;">{{ person.status }}</p>{% endif %}
 	<div class="ppl-info bt3">
 		<div class="ppl-info1 c3 c4h">
 			{% assign pname = person.name | downcase | remove: " " | remove: "'" %}

@@ -1,0 +1,14 @@
+# Available Values
+# ----------------
+# (delete empty values if not used for a particular person)
+# alumni_name: name of person
+# email: preferred email
+# pic: filename of picture located in /static/img/people/ directory
+# status: "current status of person"
+
+---
+
+- alumni_name: First Last
+  pic: 
+  email: test-email@rochester.edu
+  status: "This is where the current status of the person goes."

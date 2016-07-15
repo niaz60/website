@@ -83,6 +83,7 @@ body{background:#EEE;}a{color:#00A8C9;}
 .ppl-info p,#ppl-sm p{line-height:1.5em;}
 .ppl-info h3{font-size:1em;padding-top:20px;text-align:center;cursor:pointer;}
 .ppl-info1,.ppl-info2{position:relative;float:left;width:48%;overflow:hidden;}.ppl-info1{margin-right:4%;}
+.ppl-info3{position:relative;float:left;width:100%;overflow:hidden;}
 
 #ppl-sm h2{padding-bottom:0.5em;}
 .ppl-img-sm{width:50%;height:0;position:relative;display:block;padding-bottom:50%;margin-left:25%;overflow:hidden;}

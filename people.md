@@ -23,6 +23,9 @@ depth: 1
 {% for person in site.data.people.undergrad %}{% if person %}
 	{% assign ugrad = true %}
 {% endif %}{% endfor %}
+{% for person in site.data.people.alumni %}{% if person %}
+	{% assign alumni = true %}
+{% endif %}{% endfor %}
 
 <div class="section">
 	<h1 class="c1 bb3">People</h1>
@@ -62,5 +65,17 @@ depth: 1
 		{% endfor %}
 	</div>
 	{% endif %}
-	
 </div>
+<!-- Alumni -->
+{% if alumni %}
+<div class="section">
+	<h1 class="c1 bb3">Alumni</h1>
+	<div class="alumni">
+	<div class="eventbox">
+		{% for person in site.data.people.alumni %}
+			{% include people-include.html param="person" variable-param=person %}
+		{% endfor %}
+	</div>
+	</div>
+</div>
+{% endif %}
