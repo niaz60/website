@@ -40,11 +40,11 @@
   project_desc: 
   personal_desc: "I am a graduate student at the University of Rochester pursuing a Master's Degree in Mechanical Engineering. I completed my undergraduate studies at the university as well where I received my Bachelor's Degree in Mechanical Engineering. I enjoy watching football and playing music."
    
-- name: Ke Wang
-  title: Graduate Student
-  dept: Mechanical Engineering
-  email: wangkehust@gmail.com
-  pic: ke-wang.jpg
-  project: 
-  project_desc: 
-  personal_desc: "Ke Wang graduated from Huazhong University of Science and Technology with a bachelor's degree, majoring in Material Science. Now, he is pursuing a master's degree in Material Science. He likes basketball, exercise, and comics."
+#- name: Ke Wang
+#  title: Graduate Student
+#  dept: Mechanical Engineering
+#  email: wangkehust@gmail.com
+#  pic: ke-wang.jpg
+#  project: 
+#  project_desc: 
+#  personal_desc: "Ke Wang graduated from Huazhong University of Science and Technology with a #bachelor's degree, majoring in Material Science. Now, he is pursuing a master's degree in Material #Science. He likes basketball, exercise, and comics."
