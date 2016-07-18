@@ -5,11 +5,11 @@
 # file: name of decription pdf file located in /static/img/openings/ directory
 ---
 
-- title: Postdoc Position
+- title: Postdoctoral Position
   description: One postdoc position is available in professor Abdolrahim’s group in the department of mechanical engineering at University of Rochester.
   file: postdoc.pdf
 
-#- title: Test Opening 2
-# description: This is a test opening for display purposes only.
-# file: test-opening.pdf
+- title: PhD Position
+  description: One PhD position is available in professor Abdolrahim’s group in the department of mechanical engineering at University of Rochester
+  file: phd.pdf
 
