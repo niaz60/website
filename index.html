@@ -48,19 +48,17 @@
 		<!-- research box -->
 		<div class="section">
 			<div id="rschbox">
-				<img id="rschimg" src="./static/img/main/2.jpg" class="r5" />
+				<img id="rschimg" src="./static/img/main/np1.jpg" class="r5" />
+				
+				<img src="./static/img/main/np1.jpg" style="display:none;height:0;visibility:hidden;" />
 				
 				<img src="./static/img/main/2.jpg" style="display:none;height:0;visibility:hidden;" />
-				
-				<img src="./static/img/main/Fig2_a-f.jpg" style="display:none;height:0;visibility:hidden;" />
 				
 				<img src="./static/img/main/figure11-2.jpg" style="display:none;height:0;visibility:hidden;" />
 				
 				<img src="./static/img/main/pic6.jpg" style="display:none;height:0;visibility:hidden;" />
 				
 				<img src="./static/img/main/snap8_2nm.jpg" style="display:none;height:0;visibility:hidden;" />
-				
-				<img src="./static/img/main/np1.jpeg" style="display:none;height:0;visibility:hidden;" />
 				
 				<div class="arrow-l" onclick="mainimg(0)"></div>
 				<div class="arrow-r" onclick="mainimg(1)"></div>
@@ -131,7 +129,7 @@ In our lab we integrate our knowledge of physics, solid mechanics, materials sci
 			
 			<div class="eventbox">
 				<h6 class="c3 bb4 subheading"></h6>
-				<p class="c1">Prof. Abdolrahim recieves grant from NSF to enhance strength of nanoporous metals.</p>
+				<p class="c1">Prof. Abdolrahim recieves grant from NSF to investigate the deformation behaviors of nanoporous metals.</p>
 			</div>
 			
 			
@@ -258,7 +256,7 @@ function menu(){
 window.img_num = 0;
 function mainimg(e){
 	var file = './static/img/main/';
-	var img = ['2.jpg','Fig2_a-f.jpg','figure11-2.jpg','pic6.jpg','snap8_2nm.jpg','np1.jpeg',];
+	var img = ['np1.jpg','2.jpg','figure11-2.jpg','pic6.jpg','snap8_2nm.jpg',];
 	var num = img.length - 1;
 	if(e == 0){
 		if(img_num != 0){
