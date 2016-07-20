@@ -7,8 +7,7 @@ title: ""
 #video: M7lc1UVf-VE
 excerpt: "Prof. Abdolrahim recieves grant from NSF to enhance strength of nanoporous metals."
 ---
-Prof. Abdolrahim recieves grant from NSF to enhance strength of nanoporous metals. See the link:
-<a href="http://www.me.rochester.edu/news-events/news/2016-07-19_abdolrahiim_grant.html">Grant</a>
+Prof. Abdolrahim recieves grant from NSF to enhance strength of nanoporous metals. See <a href="http://www.me.rochester.edu/news-events/news/2016-07-19_abdolrahiim_grant.html">here</a>.
 
 
 
