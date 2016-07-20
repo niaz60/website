@@ -5,10 +5,13 @@
 ---
 
 - name: 
-  file: 2.jpg
+  file: np1.jpg
 
 - name: 
-  file: Fig2_a-f.jpg
+  file: 2.jpg
+
+#- name: 
+#  file: Fig2_a-f.jpg
 
 - name: 
   file: figure11-2.jpg
@@ -19,5 +22,3 @@
 - name: 
   file: snap8_2nm.jpg
 
-- name: 
-  file: np1.jpg
