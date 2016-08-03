@@ -11,9 +11,9 @@
 - id: 1
   title: "Determining coherent reference states of general semicoherent interfaces"
   authors: "Abdolrahim, N., and Demkowicz, M. J."
-  publisher: In press, Computational Materials Science
-  DOI:
-  year: 
+  publisher: Computational Materials Science
+  DOI:10.1016/j.commatsci.2016.02.002
+  year:2016
 
 - id: 2
   title: "Computational design of patterned interfaces using reduced order models"
@@ -27,14 +27,14 @@
   authors: "Askari, H., Maughan, M., Abdolrahim, N., Sagapuram, D., Bahr, D.F., Zbib, H.M."
   publisher: International Journal of Plasticity
   DOI: 10.1016/j.ijplas.2014.11.001
-  year: 2014
-
+  year: 2015
+ 
 - id: 4
-  title: "The effect of interfacial imperfections on plastic deformation in nanoscale metallic multilayer composites"
-  authors: "Abdolrahim, N., Mastorakos, I.N., Shao, S., Bahr, D.F., and Zbib, H.M."
-  publisher: Computational Materials Science
-  DOI: 10.1016/j.commatsci.2014.01.045
-  year: 2014
+  title: "Precipitation strengthening in nanocomposite Cr/Cu multilayer films"
+  authors: "Wo, P.C., Abdolrahim, N., Zhu, Y.F., Mastorakos, I.N., Bahr, D.F., and Zbib, H.M."
+  publisher: Philosophical Magazine
+  DOI: 10.1080/14786435.2014.904056
+  year: 2015
 
 - id: 5
   title: "Elevated temperature dependence of hardness in tri-metallic nano-scale metallic multilayer systems"
@@ -44,10 +44,10 @@
   year: 2014
 
 - id: 6
-  title: "Precipitation strengthening in nanocomposite Cr/Cu multilayer films"
-  authors: "Wo, P.C., Abdolrahim, N., Zhu, Y.F., Mastorakos, I.N., Bahr, D.F., and Zbib, H.M."
-  publisher: Philosophical Magazine
-  DOI: 10.1080/14786435.2014.904056
+  title: "The effect of interfacial imperfections on plastic deformation in nanoscale metallic multilayer composites"
+  authors: "Abdolrahim, N., Mastorakos, I.N., Shao, S., Bahr, D.F., and Zbib, H.M."
+  publisher: Computational Materials Science
+  DOI: 10.1016/j.commatsci.2014.01.045
   year: 2014
 
 - id: 7
