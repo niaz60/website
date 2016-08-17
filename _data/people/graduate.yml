@@ -15,7 +15,18 @@
 # project_desc: short description of project
 # personal_desc: personal short bio
 ---
-
+- name: Lijie (Gus) He
+  title: PhD Student
+  dept: Materials Science
+  office: Hopeman 329
+  link_text: 
+  link_value: 
+  email: lhe5@UR.Rochester.edu
+  pic: Gus-He.jpg
+  project: 
+  project_desc: 
+  personal_desc: "Gus .."
+  
 - name: Bin Ding
   title: Master's Student
   dept: Mechanical Engineering
