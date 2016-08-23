@@ -15,6 +15,18 @@
 # project_desc: short description of project
 # personal_desc: personal short bio
 ---
+- name: Haomin Liu
+  title: PhD Student
+  dept: Materials Science
+  office: Hopeman 329
+  link_text: 
+  link_value: 
+  email: hliu46@ur.rochester.edu
+  pic: Haomin-Liu.jpg
+  project: 
+  project_desc: 
+  personal_desc: "Haomin Liu received her B.S. in Materials Science and Engineering from Central South University, China in 2014, and her M.S. in Material Science from Stony Brook University in 2016. Her current project is developing deformation maps for designing NP metals with enhanced ductility and strength. She enjoys music and movies."
+  
 - name: Lijie (Gus) He
   title: PhD Student
   dept: Materials Science
