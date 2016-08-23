@@ -15,17 +15,6 @@
 # project_desc: short description of project
 # personal_desc: personal short bio
 ---
-- name: Haomin Liu
-  title: PhD Student
-  dept: Materials Science
-  office: Hopeman 329
-  link_text: 
-  link_value: 
-  email: hliu46@ur.rochester.edu
-  pic: Haomin-Liu.jpg
-  project: 
-  project_desc: 
-  personal_desc: "Haomin Liu received her B.S. in Materials Science and Engineering from Central South University, China in 2014, and her M.S. in Material Science from Stony Brook University in 2016. Her current project is developing deformation maps for designing NP metals with enhanced ductility and strength. She enjoys music and movies."
   
 - name: Lijie (Gus) He
   title: PhD Student
@@ -39,6 +28,18 @@
   project_desc: 
   personal_desc: "Lijie He graduated from Sun Yat-sen University with a BS degree in Physics. His research interests are in fundamental theories and simulations. Lijie is really fond of finite element analysis, molecular dynamics and Monte Carlo simulations. He finished his MS degree in the Materials Science department at university of Rochester studying simulation regarding Multiphysics Phenomenon. He is recently admitted to the PhD program of materials science at University of Rochester. His future plan includes modeling and statistically analyzing 3D random porous materials."
   
+- name: Haomin Liu
+  title: PhD Student
+  dept: Materials Science
+  office: Hopeman 329
+  link_text: 
+  link_value: 
+  email: hliu46@ur.rochester.edu
+  pic: Haomin-Liu.jpg
+  project: 
+  project_desc: 
+  personal_desc: "Haomin Liu received her B.S. in Materials Science and Engineering from Central South University, China in 2014, and her M.S. in Material Science from Stony Brook University in 2016. Her current project is developing deformation maps for designing NP metals with enhanced ductility and strength. She enjoys music and movies."
+    
 - name: Bin Ding
   title: Master's Student
   dept: Mechanical Engineering
