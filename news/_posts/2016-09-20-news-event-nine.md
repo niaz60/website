@@ -6,5 +6,5 @@ title: ""
 pic: group1.jpg
 excerpt: "Group photo Fall 2016"
 ---
-Group outing Fall 2016
+Group photo, Fall 2016
 
