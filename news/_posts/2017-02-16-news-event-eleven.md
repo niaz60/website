@@ -7,6 +7,6 @@ title: ""
 #video: M7lc1UVf-VE
 excerpt: "Niaz just gave an invited talk at Rochester Institute of Technology. The title of talk was 'Deformation mechanisms of nanoporous materials'"
 ---
-Niaz juts gave an invited talk at Rochester Institute of Technology. The title of talk was 'Deformation mechanisms of nanoporous materials'
+Niaz just gave an invited talk at Rochester Institute of Technology. The title of talk was 'Deformation mechanisms of nanoporous materials'
 
 

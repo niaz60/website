@@ -9,3 +9,4 @@ excerpt: "Niaz organzied the symposuim "Computational Thermodynamics and Kinetic
 ---
 "Niaz organzied the symposuim "Computational Thermodynamics and Kinetics" in TMS 2017 in San Diego. She also gave an invited talk on Nanoporous metals.
 
+
