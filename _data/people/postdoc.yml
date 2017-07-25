@@ -1,17 +1,17 @@
 # Available Values
 # ----------------
 # (delete empty values if not used for a particular person)
-# name: name of person
-# title: position they hold in group
-# dept: academic department
+ name: Anupam Neogi
+ title: Postdoc
+ dept: Mechanical Engineering
 # link_text: text to display for resume/website link
 # link_value: complete (absolute) link url
-# office: office building and room location
-# email: preferred email
+ office: Hopeman 125
+ email: aneogi@ur.rochester.edu
 # phone: preferred phone
 # fax: fax number (probably ME Dept fax)
-# pic: filename of picture located in /static/img/people/ directory
-# project: title of project
+ pic: anupam.jpg
+ project: Shock loading of porous structures
 # project_desc: short description of project
 # personal_desc: personal short bio
 ---
