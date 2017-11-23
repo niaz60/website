@@ -64,29 +64,29 @@
   project_desc: 
   personal_desc: "Yu Feng received his B.S. in Materials Science from Tianjin Polytechnic University, China in 2015, and his M.S. in Carnegie Mellon University in 2017. His interest is to solve various molecular problems with the help of his computer(s). Now, he is ready to battle with more complex MD problems using his awesome computer toolkit!"
   
-- name: Bin Ding
-  title: Master's Student
-  dept: Mechanical Engineering
-  office: Hopeman 329
-  link_text: 
-  link_value: 
-  email: bin.ding@rochester.edu
-  pic: bin-ding.jpg
-  project: Deformation behaviors of 3D nanoporous metals 
-  project_desc: 
-  personal_desc: "Bin Ding is a Mechanical Engineering master student at the University of Rochester, starting in the fall of 2015. He has earned his bachelor’s degree in Material Forming and Control Engineering at Hefei University of Technology, Anhui, China. He is interested in nanomaterials simulation and related application. During his leisure time he likes traveling and watching movies."
+#- name: Bin Ding
+#  title: Master's Student
+#  dept: Mechanical Engineering
+#  office: Hopeman 329
+#  link_text: 
+#  link_value: 
+#  email: bin.ding@rochester.edu
+#  pic: bin-ding.jpg
+#  project: Deformation behaviors of 3D nanoporous metals 
+#  project_desc: 
+#  personal_desc: "Bin Ding is a Mechanical Engineering master student at the University of Rochester, starting in the fall of 2015. He has earned his bachelor’s degree #in Material Forming and Control Engineering at Hefei University of Technology, Anhui, China. He is interested in nanomaterials simulation and related application. #During his leisure time he likes traveling and watching movies."
   
-- name: Benjamin Smilen
-  title: Master's Student
-  dept: Mechanical Engineering
-  office: Hopeman 329
-  link_text: 
-  link_value: 
-  email: bsmilen@u.rochester.edu
-  pic: Ben-Smilen.jpg
-  project: Nanomechanics of solid hydrogen at cryogenic temperatures
-  project_desc: 
-  personal_desc: "I am a graduate student at the University of Rochester pursuing a Master's Degree in Mechanical Engineering. I completed my undergraduate studies at the university as well where I received my Bachelor's Degree in Mechanical Engineering. I enjoy watching football and playing music."
+#- name: Benjamin Smilen
+#  title: Master's Student
+#  dept: Mechanical Engineering
+#  office: Hopeman 329
+#  link_text: 
+#  link_value: 
+#  email: bsmilen@u.rochester.edu
+#  pic: Ben-Smilen.jpg
+#  project: Nanomechanics of solid hydrogen at cryogenic temperatures
+#  project_desc: 
+#  personal_desc: "I am a graduate student at the University of Rochester pursuing a Master's Degree in Mechanical Engineering. I completed my undergraduate studies at #the university as well where I received my Bachelor's Degree in Mechanical Engineering. I enjoy watching football and playing music."
    
 #- name: Ke Wang
 #  title: Graduate Student
