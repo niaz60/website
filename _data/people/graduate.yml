@@ -25,7 +25,7 @@
   email: lhe5@UR.Rochester.edu
   pic: Gus-He.jpg
   project: 
-  project_desc: 
+  project_desc: Deformation behaviors of 3D nanoporous metals
   personal_desc: "Lijie He graduated from Sun Yat-sen University with a BS degree in Physics. His research interests are in fundamental theories and simulations. Lijie is really fond of finite element analysis, molecular dynamics and Monte Carlo simulations. He finished his MS degree in the Materials Science department at university of Rochester studying simulation regarding Multiphysics Phenomenon. He is recently admitted to the PhD program of materials science at University of Rochester. His future plan includes modeling and statistically analyzing 3D random porous materials."
   
 - name: Haomin Liu
@@ -36,10 +36,34 @@
   link_value: 
   email: hliu46@ur.rochester.edu
   pic: Haomin-Liu.jpg
-  project: 
+  project: Deformation behaviors of 3D nanoporous metals
   project_desc: 
   personal_desc: "Haomin Liu received her B.S. in Materials Science and Engineering from Central South University, China in 2014, and her M.S. in Material Science from Stony Brook University in 2016. Her current project is developing deformation maps for designing NP metals with enhanced ductility and strength. She enjoys music and movies."
     
+- name: Ali Khourshaei Shargh
+  title: PhD Student
+  dept: Mechanical Engineering
+  office: Hopeman 211
+  link_text: 
+  link_value: 
+  email: akhoursh@ur.rochester.edu
+  pic: ALI.jpg
+  project: Mechanics of ultrathin SiN porous membranes
+  project_desc: 
+  personal_desc: "Ali joined ACMML in September 2017 as a PhD Student in Mechanical Engineering. He holds a B.Sc. degree from K. N. Toosi University of Technology and an M.Sc. degree from Sharif University of Technology, all in Mechanical engineering. As an M.Sc. student, he worked with Computational Nano/Bio-mechanics group on cell membrane. For his M.Sc. thesis, Ali developed multi-scale model of the viscoelastic behavior of the cell membrane. He is currently working on the failure mechanisms of ultrathin Nanoporous membranes. His research interests include molecular dynamics simulation, Multi-scale modeling, and finite element analysis of microstructures."
+
+- name: Yu Feng
+  title: PhD Student
+  dept: Mechanical Engineering
+  office: Hopeman 211
+  link_text: 
+  link_value: 
+  email: yfeng28@ur.rochester.edu
+  pic: ALI.jpg
+  project: Mechanics of solid Hydrogen at cryogenic temperatures
+  project_desc: 
+  personal_desc: "Yu Feng received his B.S. in Materials Science from Tianjin Polytechnic University, China in 2015, and his M.S. in Carnegie Mellon University in 2017. His interest is to solve various molecular problems with the help of his computer(s). Now, he is ready to battle with more complex MD problems using his awesome computer toolkit!"
+  	  	
 - name: Bin Ding
   title: Master's Student
   dept: Mechanical Engineering
