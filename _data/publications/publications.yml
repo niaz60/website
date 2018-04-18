@@ -7,105 +7,112 @@
 # DOI: digital object identifier (will be used to create link to publication)
 # year: year of publication
 ---
-- id: 7
+- id: 16
+  title: "Deformation Mechanisms and ductility enhancement in Core-shell Cu@Ni Nanoporous Metals"
+  authors: "He. L, Abdolrahim, N."
+  publisher: Computational Materials Science
+  DOI:
+  year: 2018
+
+- id: 17
   title: "Mechanism of Intrinsic Diffusion in the Core of Screw Dislocations - A Molecular Dynamics Study"
   authors: "Soltani, S., Abdolrahim, N., Sepehrband, P."
   publisher: Computational Materials Science
-  DOI:
-  year: 2017
+  DOI:10.1016/j.commatsci.2017.11.048
+  year: 2018
 
-- id: 8
+- id: 18
   title: "Molecular dynamics study of self-diffusion in the core of a screw dislocation in face centered cubic crystals"
   authors: "Soltani, S., Abdolrahim, N., Sepehrband, P."
   publisher: Scripta materialia
   DOI: 10.1016/j.scriptamat.2017.02.021
   year: 2017
 
-- id: 9
+- id: 19
   title: "Predicting the failure of thin porous membranes in bulge tests"
   authors: "Gilmer, S.R, Abdolrahim, N., Wayson,S., Winans,J., Fang, D., DesOrmeaux, J., Getpreecharsawas, J., Ellis, J., Fauchet, J., McGrath, J.,"
   publisher: This Solid Films
   DOI: 10.1016/j.tsf.2017.04.004
   year: 2017
 
-- id: 10
+- id: 20
   title: "Determining coherent reference states of general semicoherent interfaces"
   authors: "Abdolrahim, N., and Demkowicz, M. J."
   publisher: Computational Materials Science
   DOI: 10.1016/j.commatsci.2016.02.002
   year: 2016
 
-- id: 11
+- id: 21
   title: "Computational design of patterned interfaces using reduced order models"
   authors: "Vattré, A. J., Abdolrahim, N., Kolluri, K., and Demkowicz, M. J."
   publisher: Scientific Reports
   DOI: 10.1038/srep06231
   year: 2014
 
-- id: 12
+- id: 22
   title: "A stochastic crystal plasticity framework for deformation of micro-scale polycrystalline materials"
   authors: "Askari, H., Maughan, M., Abdolrahim, N., Sagapuram, D., Bahr, D.F., Zbib, H.M."
   publisher: International Journal of Plasticity
   DOI: 10.1016/j.ijplas.2014.11.001
   year: 2015
 
-- id: 13
+- id: 23
   title: "Precipitation strengthening in nanocomposite Cr/Cu multilayer films"
   authors: "Wo, P.C., Abdolrahim, N., Zhu, Y.F., Mastorakos, I.N., Bahr, D.F., and Zbib, H.M."
   publisher: Philosophical Magazine
   DOI: 10.1080/14786435.2014.904056
   year: 2015
 
-- id: 14
+- id: 24
   title: "Elevated temperature dependence of hardness in tri-metallic nano-scale metallic multilayer systems"
   authors: "Schoeppner, R.L., Abdolrahim, N., Salehinia, I., Zbib, H.M., and Bahr, D.F."
   publisher: Thin Solid Films
   DOI: 10.1016/j.tsf.2014.05.031
   year: 2014
 
-- id: 15
+- id: 25
   title: "The effect of interfacial imperfections on plastic deformation in nanoscale metallic multilayer composites"
   authors: "Abdolrahim, N., Mastorakos, I.N., Shao, S., Bahr, D.F., and Zbib, H.M."
   publisher: Computational Materials Science
   DOI: 10.1016/j.commatsci.2014.01.045
   year: 2014
 
-- id: 16
+- id: 26
   title: "Multiscale modeling and simulation of deformation in nanoscale metallic multilayer systems"
   authors: "Abdolrahim, N., Zbib, H.M., Bahr, D.F."
   publisher: International Journal of Plasticity
   DOI: 10.1016/j.ijplas.2013.04.002
   year: 2014
 
-- id: 17
+- id: 27
   title: "Stochastic effects in plasticity in small volumes"
   authors: "Shao, S., Abdolrahim, N., Bahr, D. F., Lin. G., Zbib, H.M."
   publisher: International Journal of Plasticity
   DOI: 10.1016/j.ijplas.2013.09.005
   year: 2014
 
-- id: 18
+- id: 28
   title: "The mechanical response of core-shell structures for nanoporous metallic materials"
   authors: "Abdolrahim, N., Bahr, D.F., Revard, B., Reilly, C., Ye, J., Balk, T.J., Zbib, H.M."
   publisher: Philosophical Magazine
   DOI: 10.1080/14786435.2012.731528
   year: 2013
 
-- id: 19
+- id: 29
   title: "Precipitate strengthening in nanometallic material composites"
   authors: "Abdolrahim, N., Mastorakos. IN., Zbib, H.M."
   publisher: Philosophical Magazine Letters
   DOI: 10.1080/09500839.2012.704153
   year: 2012
 
-- id: 20
+- id: 30
   title: "Deformation mechanisms in composite nano-layered metallic and nanowire structures"
   authors: "Mastorakos. IN., Abdolrahim, N., Zbib, H.M."
   publisher: International Journal of Mechanical Sciences
   DOI: 10.1016/j.ijmecsci.2009.09.034
   year: 2010
 
-- id: 21
+- id: 31
   title: "Deformation mechanisms and pseudoelastic behaviors in trilayer composite metal nanowires"
   authors: "Abdolrahim, N., Mastorakos. IN., Zbib, H.M."
   publisher: Physical Review B
