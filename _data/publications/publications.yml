@@ -7,6 +7,14 @@
 # DOI: digital object identifier (will be used to create link to publication)
 # year: year of publication
 ---
+- id: 15
+  title: "Atomistic simulations of the strengthening effect of high-density bubble formation in helium irradiated single crystalline copper"
+  authors: "Neogi A., Askari, H., Abdolrahim, N."
+  publisher: Materialia
+  DOI:
+  year: 2018
+  
+
 - id: 16
   title: "Deformation Mechanisms and ductility enhancement in Core-shell Cu@Ni Nanoporous Metals"
   authors: "He. L, Abdolrahim, N."
