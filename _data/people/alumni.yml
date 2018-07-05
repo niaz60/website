@@ -8,22 +8,21 @@
 
 ---
 - alumni_name: Caulin Nelson-Angelsea
-  #pic: Caulin-Angelsea.jpg
-  #email: cnelsona@u.rochester.edu
+  email: cnelsona@u.rochester.edu
   #status: "Ke finished his Master's degree in spring 2016. He is currently at North Carolina State University studying his PhD"
   
 - alumni_name: Ke Wang
-  #pic: ke-wang.jpg
-  #email: wangkehust@gmail.com
+  pic: ke-wang.jpg
+  email: wangkehust@gmail.com
   status: "Ke finished his Master's degree in spring 2016. He is currently at North Carolina State University studying his PhD"
   
 - alumni_name: Bin Ding
-  #pic: bin-ding.jpg
-  #email: bin.ding@rochester.edu
+  pic: bin-ding.jpg
+  email: bin.ding@rochester.edu
   status: "Bin finished his Master's degree in spring 2017. He moved back to China after his graduation"
   
 - alumni_name: Benjamin Smilen
-  #pic: Ben-Smilen.jpg
-  #email: bsmilen@u.rochester.edu
+  pic: Ben-Smilen.jpg
+  email: bsmilen@u.rochester.edu
   status: "Bin finished his Master's degree in spring 2017. He is currently a process engineer at Stanley Black & Decker, Inc."
   
