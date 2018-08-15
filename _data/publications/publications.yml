@@ -7,6 +7,13 @@
 # DOI: digital object identifier (will be used to create link to publication)
 # year: year of publication
 ---
+- id: 14
+  title: "Molecular dynamics simulation studies on mechanical properties of standalone ligaments and networking nodes, a connection to nanoporous material"
+  authors: "Liu, H., Je, L., Abdolrahim, N."
+  publisher: Modelling and Simulation in Materials Science and Engineering
+  DOI:
+  year: 2018
+  
 - id: 15
   title: "Atomistic simulations of the strengthening effect of high-density bubble formation in helium irradiated single crystalline copper"
   authors: "Neogi A., Askari, H., Abdolrahim, N."
@@ -14,10 +21,9 @@
   DOI:
   year: 2018
   
-
 - id: 16
   title: "Deformation Mechanisms and ductility enhancement in Core-shell Cu@Ni Nanoporous Metals"
-  authors: "He. L, Abdolrahim, N."
+  authors: "He, L., Abdolrahim, N."
   publisher: Computational Materials Science
   DOI:
   year: 2018
