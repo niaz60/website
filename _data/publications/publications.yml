@@ -7,6 +7,20 @@
 # DOI: digital object identifier (will be used to create link to publication)
 # year: year of publication
 ---
+- id: 12
+  title: "Stress-assisted structural phase transformation enhances ductility in Mo/Cu bicontinuous intertwined composites"
+  authors: "He, L., Abdolrahim, N."
+  publisher: ACS Applied Nano Materials
+  DOI:
+  year: 2019
+  
+- id: 13
+  title: "The relaxed structure of intrinsic dislocation networks in semicoherent interfaces: Predictions from anisotropic elasticity theory and comparison with atomistic simulations"
+  authors: "Vattre, Abdolrahim, N., Navale, SS., Demkowicz, MJ."
+  publisher: Extreme Mechanics Letters
+  DOI:
+  year: 2019
+  
 - id: 14
   title: "Molecular dynamics simulation studies on mechanical properties of standalone ligaments and networking nodes, a connection to nanoporous material"
   authors: "Liu, H., He, L., Abdolrahim, N."
