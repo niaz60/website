@@ -16,14 +16,14 @@
 # personal_desc: personal short bio
 ---
 
-- name: Anupam Neogi
-  title: Postdoc
-  dept: Mechanical Engineering
-  office: Hopeman 125
+#- name: Anupam Neogi
+#  title: Postdoc
+#  dept: Mechanical Engineering
+#  office: Hopeman 125
 #  link_text: 
 #  link_value: 
-  email: aneogi@ur.rochester.edu
-  pic: anupam.jpg
-  project: Plastic deformation of porous structures under shock loading
+#  email: aneogi@ur.rochester.edu
+#  pic: anupam.jpg
+#  project: Plastic deformation of porous structures under shock loading
 #  project_desc: 
-  personal_desc: Anupam has worked on atomistic simulations of extreme condition of matter and he has submitted his PhD thesis at Indian Institute of Technology Kharagpur, India, in June 2017. Prior to that, he earned his B.Sc and M.Sc degree in physics from The University of Burdwan, India in 2008 and 2010, respectively. His broad area of interest is atomic-scale study of plastic deformation and electronic structure calculation of various nano-structured materials.
+#  personal_desc: Anupam has worked on atomistic simulations of extreme condition of matter and he has submitted his PhD thesis at Indian Institute of Technology Kharagpur, India, in June 2017. Prior to that, he earned his B.Sc and M.Sc degree in physics from The University of Burdwan, India in 2008 and 2010, respectively. His broad area of interest is atomic-scale study of plastic deformation and electronic structure calculation of various nano-structured materials.
