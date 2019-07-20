@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+	<meta charset="UTF-8" />
+	<title> | ACML</title>
+	<link rel="stylesheet" type="text/css" href="./static/style.css">
+	<link rel="shortcut icon" href="./static/logos/ur-sm.png">
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div id="header">
+		<h1 id="title" class="c1">Advanced Computational Mechanics and Materials Laboratory</h1>
+		<ul id="menulist" class="c2">
+				<a href="."><li class="br3 c4h">Home
+				</li></a><a href="./research/"><li class="br3 c4h">Research
+				</li></a><a href="./people/"><li class="br3 c4h">People
+				</li></a><a href="./publications/"><li class="br3 c4h">Publications
+				</li></a><a href="./news/"><li class="br3 c4h">News/Events
+				</li></a><a href="./openings/"><li class="br3 c4h">Openings
+				</li></a><a href="./contact/"><li class="c4h">Contact
+			</li></a></ul>
+	</div>
+<!-- mobile header start-->
+	<div id="header-sm">
+		<h1 id="title-sm" class="c1">Advanced Computational Mechanics and Materials Laboratory</h1>
+		<img id="menubutton" src="./static/logos/menu.png" onclick="menu()"/>
+		<ul id="menulist-sm" class="c2" style="display:none;">
+			<a href="."><li class="bb3 c4h">Home
+			</li></a><a href="./research/"><li class="bb3 c4h">Research
+			</li></a><a href="./people/"><li class="bb3 c4h">People
+			</li></a><a href="./publications/"><li class="bb3 c4h">Publications
+			</li></a><a href="./news/"><li class="bb3 c4h">News/Events
+			</li></a><a href="./openings/"><li class="bb3 c4h">Openings
+			</li></a><a href="./contact/"><li class="c4h">Contact
+		</li></a></ul>
+	</div>
+<!-- mobile header end -->
+
+<p>Lejie’s paper on structural phase transformation in bicontiunous intertwined composites just got published in ACS Applied Nano Materials. Well done Lejie!</p>
+
+
+	<div class="section bb3" style="padding:10px 0;"></div>
+	<p class="footer c3">University of Rochester – &copy; 2019</p>
+	<a href="http://www.rochester.edu/" target="_blank"><img class="footer" style="height:80px;margin-bottom:10px;" src="./static/logos/ur-logo-clw.png" />
+
+<script>
+function fadeIn( elem, ms )
+{
+  if( ! elem )
+    return;
+
+  elem.style.opacity = 0;
+  elem.style.filter = "alpha(opacity=0)";
+//  elem.style.display = "inline-block";
+//  elem.style.visibility = "visible";
+
+  if( ms )
+  {
+    var opacity = 0;
+    var timer = setInterval( function() {
+      opacity += 50 / ms;
+      if( opacity >= 1 )
+      {
+        clearInterval(timer);
+        opacity = 1;
+      }
+      elem.style.opacity = opacity;
+      elem.style.filter = "alpha(opacity=" + opacity * 100 + ")";
+    }, 50 );
+  }
+  else
+  {
+    elem.style.opacity = 1;
+    elem.style.filter = "alpha(opacity=1)";
+  }
+}
+
+function fadeOut( elem, ms )
+{
+  if( ! elem )
+    return;
+
+  if( ms )
+  {
+    var opacity = 1;
+    var timer = setInterval( function() {
+      opacity -= 50 / ms;
+      if( opacity <= 0 )
+      {
+        clearInterval(timer);
+        opacity = 0;
+//        elem.style.display = "none";
+//        elem.style.visibility = "hidden";
+      }
+      elem.style.opacity = opacity;
+      elem.style.filter = "alpha(opacity=" + opacity * 100 + ")";
+    }, 50 );
+  }
+  else
+  {
+     elem.style.opacity = 0;
+     elem.style.filter = "alpha(opacity=0)";
+//     elem.style.display = "none";
+//     elem.style.visibility = "hidden";
+  }
+}
+function menu(){
+		document.getElementById('menulist-sm').style.display = "block";
+		document.getElementById('menubutton').style.display = "none";
+}
+window.img_num = 0;
+function mainimg(e){
+	var file = './static/img/main/';
+	var img = ['Picture1.png','2.jpg','figure11-2.jpg','pic6.jpg','snap8_2nm.jpg',];
+	var num = img.length - 1;
+	if(e == 0){
+		if(img_num != 0){
+			img_num = img_num - 1;
+		}
+		else{
+			img_num = num;
+		}
+	}
+	else{
+		if(img_num != num){
+			img_num = img_num + 1;
+		}
+		else{
+			img_num = 0;
+		}
+	}
+	window.clearTimeout(imgtimer);
+	fadeOut(document.getElementById('rschbox'),500);
+	setTimeout(function(){
+		document.getElementById('rschimg').setAttribute('src',file+img[img_num]);
+		fadeIn(document.getElementById('rschbox'),500);
+		imgswap();
+	},500);
+}
+
+function people(e){
+	var per = e.substr(0,e.length - 2); // remove number tag from name
+	var num = e.substr(e.length - 1); // get number tag
+	if(num == '1' || num == '3' || num == '5' || num == '7'){ tag = '-1'; smtag = '-5'; }
+	else{ tag = '-2'; smtag = '-6'; }
+	var btn = document.getElementById(per+tag); // get button element
+	var smbtn = document.getElementById(per+smtag); // get mobile button element
+	if(num == '1' || num == '5'){
+		btn.setAttribute("onclick","people('"+per+"-3')"); // switch tag
+		btn.innerHTML = "&#9652; personal bio &#9652;"; // change button text
+		smbtn.setAttribute("onclick","people('"+per+"-7')"); // switch mobile tag
+		smbtn.innerHTML = "&#9652; bio &#9652;"; // change mobile button text
+		document.getElementById(per+"-bio").style.display = "block"; // switch display on/off
+	}
+	else if(num == '3' || num == '7'){
+		btn.setAttribute("onclick","people('"+per+"-1')");
+		btn.innerHTML = "&#9662; personal bio &#9662;";
+		smbtn.setAttribute("onclick","people('"+per+"-5')");
+		smbtn.innerHTML = "&#9662; bio &#9662;";
+		document.getElementById(per+"-bio").style.display = "none";
+	}
+	else if(num == '2' || num == '6'){
+		btn.setAttribute("onclick","people('"+per+"-4')");
+		btn.innerHTML = "&#9652; project info &#9652;";
+		smbtn.setAttribute("onclick","people('"+per+"-8')");
+		smbtn.innerHTML = "&#9652; project &#9652;";
+		document.getElementById(per+"-prj").style.display = "block";
+	}
+	else if(num == '4' || num == '8'){
+		btn.setAttribute("onclick","people('"+per+"-2')");
+		btn.innerHTML = "&#9662; project info &#9662;";
+		smbtn.setAttribute("onclick","people('"+per+"-6')");
+		smbtn.innerHTML = "&#9662; project &#9662;";
+		document.getElementById(per+"-prj").style.display = "none";
+	}
+}
+
+function imgswap(){
+	window.imgtimer = setTimeout(function(){
+		mainimg(1);
+	},5000);
+}
+if(document.getElementById('rschimg')){window.onload = imgswap();}
+
+function videxpand(e){
+	document.getElementById('b' + e).parentNode.removeChild(document.getElementById('b' + e));
+	document.getElementById('a' + e).style = "";
+}
+  
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52222545-7', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

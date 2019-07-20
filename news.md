@@ -15,7 +15,7 @@ depth: 1
 			<p class="c3">{{ post.date | date: "%b %-d, %Y" }}</p>
 			{% if post.pic %}
 			<div class="news-img r5">
-				<img src="{{ base }}/static/img/research/{{ post.pic }}" class="r5" style="width:100%;" />
+				<img src="{{ base }}/static/img/news/{{ post.pic }}" class="r5" style="width:100%;" />
 			</div>
 			{% endif %}
 			<article class="c1">{{ post.content }}</article>
